@@ -15,7 +15,7 @@ export class LanguageTranslateComponent implements OnInit {
    * @ author   : Shivam
    */
   constructor(public translate: TranslateService) { 
-    translate.addLangs(['en', 'nl']);
+    translate.addLangs(['en', 'nl','fr']);
     translate.setDefaultLang('en');
   }
 
